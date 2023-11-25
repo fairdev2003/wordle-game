@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className='bg-[#dad8d8] w-[110px] h-[40px] rounded-full flex items-center p-4 justify-between'>
             <img className='w-[40px] h-[20px] rounded-md' alt='country' src={Poland}></img>
             <HiChevronDown className='cursor-pointer' onClick={() => {setdropdown(!dropdownopen)}} size={30}/>
-            <div className={`${dropdownopen ? "fixed" : "hidden"} top-[60px] right-6 w-[150px] h-[auto] bg-[#dad8d8] rounded-md p-2 z-1 flex-col`}>
+            <div className={`${dropdownopen ? "fixed" : "hidden"} top-[60px] right-6 w-[150px] h-[auto] bg-[#dad8d8] rounded-lg p-2 z-1 flex-col`}>
                 <div className='w-[50px] h-[30px] rounded-md flex items-center gap-3 font-[700]'>
                     <img src={Poland} alt='Poland'/>
                     <p>Poland</p>
